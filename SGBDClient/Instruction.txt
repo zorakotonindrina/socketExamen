@@ -1,0 +1,64 @@
+create database {
+    vaovao = create
+    database = database
+    database_name = zay tina fa tsy maintsy ao arinan'ny mot "database"
+}
+
+use database{
+    ampiasaina = use 
+    database = database
+    database_name = zay tina fa tsy maintsy ao arinan'ny mot "database"
+    Exemple ( ampiasaina database exemple )
+}
+
+create table {
+    amorony = create
+    table = table
+    table_name = zay tina fa tsy maintsy ao arinan'ny mot "table"
+    values = tsy maintsy atao ao arinan parenthese de virgule no manasaraka anle izy 
+    Exemple ( "Amorony table emp ( idEmployee,name,salary,job,hireDate )" )
+}
+
+select tab{
+    omeo = select
+    table = table
+    table_name = zay tina fa tsy maintsy ao arinan'ny mot "table"
+    dooly misolo *
+    ka = where
+    condition = tsy maintsy atao ao arinan'le ka 
+    valeur  = tsy maintsy atao ao arinan' le condition
+    ex omeo table dept ka dname pepe
+
+}
+
+insert table{
+    ampidiro = insert
+    table = table
+    table_name = zay tina fa tsy maintsy ao arinan'ny mot "table"
+    values = tsy maintsy atao ao arinan parenthese de virgule no manasaraka anle izy 
+    Exemple ( "Ampidiro table emp ( 1,mah,2500,assistant,2010-02-02 )" )
+
+}
+delete from tab{
+    fafao = delete
+    table = table
+    table_name = zay tina fa tsy maintsy ao arinan'ny mot "table"
+    ka = where
+    condition = tsy maintsy atao ao arinan'le ka 
+    valeur  = tsy maintsy atao ao arinan' le condition
+    Exemple( "fafao table emp ka idEmployee 2" )
+}
+
+update from tab{
+    ovao = update
+    zavatra ray ihany no mbola afaka atao update 
+    le attibu mety foana ze asina anaz 
+    le valeur ho setena : tsy maintsy ao arinan " = "
+    table = table
+    table_name = zay tina fa tsy maintsy ao arinan'ny mot "table"
+    ka = where
+    condition = tsy maintsy atao ao arinan'le ka 
+    valeur  = tsy maintsy atao ao arinan' le condition
+    Exemple( ""ovao salary = 5000 table emp ka idEmployee 2"" )
+
+}

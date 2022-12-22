@@ -1,0 +1,3 @@
+deptno,dname,loc,
+10,poupou,tana,
+30,pepe,bira,
